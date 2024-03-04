@@ -13,17 +13,21 @@
             .menu {
                 border: 1px solid black;
                 width: 25px;
+                padding: 10px;
+                border-radius: 100%;
             }
             .youtube-logo {
                 border: 1px solid black;
                 height: 60px;
+                position: relative;
+                left: 10px;
             }
             .KE {
                 border: 1px solid black;
                 display: flex;
                 position: relative;
                 bottom: 10px;
-                right: 5px;
+                right: 1px;
                 color: rgb(107, 107, 107);
                 font-family: sans-serif;
                 font-size: 10px;
@@ -38,36 +42,79 @@
                 border-radius:25px 0 0 25px ;
             }
             .search {
-                border: 1px solid black;
+                border: 1px solid #5a5a5a;
                 width: 70px;
                 height: 50px;
                 margin: 10px;
                 position: relative;
                 left: 380px;
                 border-radius: 0 25px 25px 0;
+                background-color: #f8f8f8;
             }
             .mic {
-                border: 1px solid black;
-                width: 35px;
+                border: 1px solid #f8f8f8;
+                width: 25px;
+                height: 25px;
                 margin: 10px;
                 position: relative;
                 left: 380px;
+                padding: 10px;
+                border-radius: 100%;
+                background-color: #f8f8f8;
+            }
+            .mic:hover {
+                background-color: #d9d9d9;
+            }
+            .create {
+                border: 1px solid black;
+                width: 25px;
+                position: relative;
+                left: 750px;
+                padding: 10px;
+                border-radius: 100%;
+            }
+            .bell {
+                border: 1px solid black;
+                width: 25px;
+                position: relative;
+                left: 780px;
+                padding: 10px;
+                border-radius: 100%;
+            }
+            .uname {
+                border: 1px solid black;
+                width: 10px;
+                position: relative;
+                left: 805px;
+                padding: 10px;
+                background-color: green;
+                color: white;
+                border-radius: 20px;
+                font-family: sans-serif;
+                
+            }
+            .search-bar {
+                border: 1px solid white;
+                position: relative;
+                left: 10px;
+                
             }
         </style>
     </head>
-    
     <body>
-        <div class="topbar">
-                       
+        <div class="topbar">                       
             <div>
                 <img class="menu" src="Hamburger_icon.svg.png" alt="Hamburger_icon.svg.png">
+                
             </div>
             <div>
                 <img class="youtube-logo" src="youtube.png" alt="youtube.png">
                 <p class="KE">KE</p>
             </div>
             <div class="container">
-
+                <form action="">
+                    <input class="search-bar" type="text" placeholder="Search">
+                </form>
             </div>
             <div class="search-container">
                 <img class="search" src="search.png" alt="search.png">
@@ -77,13 +124,13 @@
                 <img class="mic" src="mic.png" alt="mic">
             </div>
             <div>
-
+                <img class="create" src="create.png" alt="create">
             </div>
             <div>
-
+                <img class="bell" src="bell.png" alt="bell">
             </div>
             <div>
-
+                <p class="uname">C</p>
             </div>
             <div>
 
