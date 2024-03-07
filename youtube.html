@@ -146,9 +146,33 @@
                 margin-left: 25px;
                 margin-right: 65px;
             }
+            .tags {
+                border: 1px solid black;
+                font-family: sans-serif;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                width: 100;
+            }
+            .tags * {
+                border: 1px solid black;
+                width: max-content;
+                padding: 5px;
+                border-radius: 10px;
+            }
+            .main {
+                border: 1px solid red;
+                display: flex;
+                gap: 40px;
+            }
+            .body {
+                border: 1px solid blue;
+                width: 100%;
+            }
         </style>
     </head>
     <body>
+        
         <div class="topbar">                       
             <div>
                 <img class="menu" src="Hamburger_icon.svg.png" alt="Hamburger_icon.svg.png">
@@ -180,24 +204,45 @@
                 <p class="uname">C</p>
             </div>
         </div>
-        <div class="side-bar-containers">
-             <div class="house-container">
-                 <img class="house" src="home.png" alt="home">
-                <p class="home">Home</p>
-            </div>
-            <div>
-                 <img class="shorts" src="shorts.png" alt="shorts">
-                <p class="word-shorts">shorts</p>
-            </div>
-             <div>
-                 <img  class="subs" src="subs.png" alt="subs">
-                <p class="word-subs">Subscription</p>
-            </div>
-            <div>
+        <div class="main">
+            <div class="side-bar-containers">
+                <div class="house-container">
+                    <img class="house" src="home.png" alt="home">
+                   <p class="home">Home</p>
+               </div>
+               <div>
+                    <img class="shorts" src="shorts.png" alt="shorts">
+                   <p class="word-shorts">shorts</p>
+               </div>
+                <div>
+                    <img  class="subs" src="subs.png" alt="subs">
+                   <p class="word-subs">Subscription</p>
+               </div>
+      
+           </div>
+           <div class="body">
+               <div class="tags">
+                   <p>All</p>
+                   <p>Mixes</p>
+                   <p>Live</p>
+                   <p>gaming</p>
+                   <p>Physics</p>
+                   <p>Superhero movies</p>
+                   <p>Computer</p>
+                   <p>Music</p>
+                   <p>Fraction</p>
+                   <p>Stewie griffin</p>
+                   <p>Sitcomes</p>
+                   <p>Film criticims</p>
+                   <p>Fandango Movieclips</p>
+                   <p>Thoughts</p>
+                   <p>History</p>
+                   <p>Tomb of the mask</p>
+                   <p>Gadgets</p>
+               </div>
+       </div>
 
-             </div>
         </div>
-        
- 
+
     </body>
 </html>
